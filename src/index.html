@@ -13,12 +13,12 @@
     />
   </head>
   <body>
-    <div class="font-inter text-slate-100">
-      <div class="flex w-full flex-col items-center py-4">
+    <div class="container-content font-inter text-slate-100">
+      <div class="content-home flex w-full flex-col items-center py-4">
         <div class="w-10/12 z-10">
-          <div class="text-[]">
-            <h3 class="text-4xl py-4">Hi! I'm</h3>
-            <h1 class="text-5xl font-bold">Riksi Purnama</h1>
+          <div>
+            <h3 class="text-4xl py-4 text-[#33FFA9]">Hi! I'm</h3>
+            <h1 class="text-5xl font-bold text-[#33FFA9]">Riksi Purnama</h1>
           </div>
           <p class="py-10 text-2xl">
             A Computer science student. Interested in Cybersecurity, back-end
@@ -26,50 +26,72 @@
           </p>
         </div>
         <div
-          class="z-0 bg-[#414868] absolute top-0 w-full h-52 min-[401px]:h-[20rem]"
+          class="z-0 bg-[#414868] absolute w-full top-0 h-52 min-[401px]:h-[20rem]"
         ></div>
-        <div>
-          <img src="" alt="" />
-          <div></div>
+        <div class="relative flex justify-center">
+          <img src="../img/profile.png" class="z-10 w-7/12 bottom-0" alt="" />
+          <div
+            class="absolute bottom-0 mx-auto h-40 w-full bg-[#414868] md:h-40 md:w-80 lg:visible lg:h-[200px] lg:w-[430px]"
+          ></div>
         </div>
       </div>
 
-      <div class="">
+      <div class="content-contact mb-4 mt-8">
         <div class="flex justify-center">
-          <button class="bg-[#33FFA9] px-2 py-3 text-[#191e24] font-bold">
-            Contact me/&gt;
+          <button class="bg-[#414868] px-2 py-3 font-bold">
+            Contact me /&gt;
           </button>
         </div>
-        <div class="flex justify-center font-semibold py-4 text-1xl">
+        <div class="flex justify-center font-semibold py-6 text-xl">
           Find me
         </div>
         <div class="flex justify-center border-none">
-          <div class=" mr-4">
-            <a href=""><img class="size-10"  src="../img/linkedin.svg" alt="LinkedIn" /></a>
+          <div class="mr-8">
+            <a href=""
+              ><img
+                class="size-10 rounded"
+                src="../img/linkedin.svg"
+                alt="LinkedIn"
+            /></a>
           </div>
-          <div class=" mr-4">
-            <a><img class="size-10" src="../img/instagram.svg" alt="Instagram" /> </a>
+          <div class="mr-8">
+            <a href="">
+              <img class="size-10" src="../img/instagram.svg" alt="Instagram" />
+            </a>
           </div>
           <div class="">
-            <a href=""><img class="size-10" src="../img/github.svg" alt="Github" /></a>
+            <a href=""
+              ><img class="size-10" src="../img/github.svg" alt="Github"
+            /></a>
           </div>
-        </div>
-        <div>
-            
         </div>
       </div>
 
-      <div>
-        <div></div>
-        <h1>About me</h1>
-        <div>
-          <p>
-            <span>&lt;p&gt;</span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ipsam
-            hic consequatur delectus provident aperiam eos deserunt facilis
-            atque ex.
-            <span>&lt;/p&gt;</span>
-          </p>
+      <div class="flex w-full items-center flex-col justify-center py-10">
+        <div class="w-10/12">
+          <div class="flex items-center gap-4">
+            <h1 class="min-w-fit font-bold text-3xl text-[#33FFA9]">About me</h1>
+            <div class="h-1 w-full bg-[#33FFA9]"></div>
+          </div>
+          <div>
+            <span class="block text-xl my-2 text-[#33FFA9]">&lt;p&gt;</span>
+            <p class="text-[18px] mb-4 text-justify">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+              ipsam hic consequatur delectus provident aperiam eos deserunt
+              facilis atque ex.
+            </p>
+            <p class="text-[18px] mb-4 text-justify">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+              ipsam hic consequatur delectus provident aperiam eos deserunt
+              facilis atque ex.
+            </p>
+            <p class="text-[18px] mb-4 text-justify">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+              ipsam hic consequatur delectus provident aperiam eos deserunt
+              facilis atque ex.
+            </p>
+            <span class="block text-xl my-2 text-[#33FFA9]">&lt;/p&gt;</span>
+          </div>
         </div>
       </div>
 
@@ -94,9 +116,11 @@
           <h1>My works</h1>
           <div></div>
         </div> -->
-      <footer>
-        Copyright &copy; 2024 - All rights reserved by Riksi Purnama
-      </footer>
+      <div class="bg-[#15191e] flex justify-center min-h-10 p-4 text-center ">
+        <p class="text-[16px] font-normal">
+            Copyright &copy; 2024 - All rights reserved by Riksi Purnama
+        </p>
+      </div>
     </div>
   </body>
 </html>
