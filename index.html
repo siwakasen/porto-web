@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/output.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/tailwind.svg" type="image/x-icon">
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
       rel="stylesheet"
@@ -247,9 +247,10 @@
           </div>
 
           <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 my-10 lg:my-10 gap-8 ">
-              <div class="card rounded-xl shadow-lg overflow-hidden max-w-80 mx-auto xl:mx-0">
+            <a href="#project1" class="group">
+              <div class="card rounded-xl shadow-lg overflow-hidden max-w-80 mx-auto xl:mx-0" id="project1">
                 <div class="flex justify-center bg-[#20443E]">
-                  <img src="img/project1.jpg" class="aspect-video hover:scale-110 transition-all duration-300" alt="catatuangku">
+                  <img src="img/project1.jpg" class="aspect-video group-hover:scale-110 transition-all duration-300" alt="catatuangku">
                 </div>
                 <div class="card-body bg-[#20443E] p-6 h-full">
                   <div
@@ -270,28 +271,29 @@
                   </div>
                 </div>
               </div>
-              <div class="card rounded-xl shadow-lg overflow-hidden mx-auto xl:mx-0 max-w-80 order-first">
-                <div class="flex justify-center bg-[#20443E]">
-                  <a href="https://ngodingbareng.my.id/" target="_blank">
-                    <img src="img/ngodingbareng.png" class="aspect-video hover:scale-110 transition-all duration-300" alt="ngodingbareng">
-                  </a>
-                </div>
-                <div class="card-body bg-[#20443E] p-6 h-full">
-                  <div
+            </a>
+              <a href="https://ngodingbareng.my.id/" target="_blank" class="group">
+                <div class="card rounded-xl shadow-lg overflow-hidden mx-auto xl:mx-0 max-w-80 order-first ">
+                  <div class="flex justify-center bg-[#20443E]">
+                      <img src="img/ngodingbareng.png" class="aspect-video group-hover:scale-110 transition-all duration-300" alt="ngodingbareng">
+                    </div>
+                    <div class="card-body bg-[#20443E] p-6 h-full">
+                      <div
                       class="card-title font-bold text-xl mb-2 flex items-center gap-1"
-                    >
-                    <h1>Ngoding-bareng</h1>
-                  </div>
-                  <div class="card-content italic">
-                    <p class="desc mb-2">
-                      Ngoding-bareng is a website to learn coding. (It's a project on my colllage).
-                    </p>
-                    <p class="text-lg">
-                      <p>Laravel, Bootstrap, MySql</p>
-                    </p>
+                      >
+                      <h1>Ngoding-bareng</h1>
+                    </div>
+                    <div class="card-content italic">
+                      <p class="desc mb-2">
+                        Ngoding-bareng is a website to learn coding. (It's a project on my colllage).
+                      </p>
+                      <p class="text-lg">
+                        <p>Laravel, Bootstrap, MySql</p>
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </div>
+            </a>
           </div>
         </div>
       </div>
