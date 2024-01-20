@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx tailwindcss build src/css/input.css -o src/css/output.css"
+    "build": "npx tailwindcss build css/input.css -o css/output.css"
   },
   "keywords": [],
   "author": "",
