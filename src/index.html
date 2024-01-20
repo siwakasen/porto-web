@@ -14,33 +14,39 @@
   </head>
   <body>
     <div class="container-content font-inter text-[#ececec]">
-      <div class="content-home flex w-full flex-col items-center py-4">
+      <div
+        class="background-greetings z-0 bg-[#102c27] absolute w-full top-0 h-52 min-[401px]:h-[20rem] min-[463px]:hidden"
+      ></div>
+      <div class="content-home flex w-full flex-col items-center pt-10">
         <div class="w-10/12 z-10">
           <div>
             <h3 class="text-4xl py-4 text-[#33FFA9]">Hi! I'm</h3>
-            <h1 class="text-5xl font-bold text-[#33FFA9]">Riksi Purnama</h1>
+            <div class="md:flex items-center gap-4">
+              <h1 class="text-5xl md:text-6xl md:min-w-fit font-bold text-[#33FFA9]">Riksi Purnama</h1>
+              <div class="hidden md:block h-1 w-full bg-[#33FFA9]"></div>
+            </div>
           </div>
+        </div>
+      </div>
+      <div class="content-home flex w-full flex-col items-center pb-4">
+        <div class="w-10/12 z-10">
           <p class="py-10 text-2xl">
             A Computer science student. Interested in Cybersecurity, back-end
             development, and literature.
           </p>
         </div>
-
-        <div
-          class="z-0 bg-[#102c27] absolute w-full top-0 h-52 min-[401px]:h-[20rem]"
-        ></div>
       </div>
+
       <div class="relative flex justify-center">
         <img src="../img/profile.jpg" id="profile" class="z-10 w-7/12 bottom-0 rounded-full" alt="" />
         <div
-          class="absolute bottom-0 mx-auto h-3/5 w-full bg-[#20443E] "
+          class="absolute bottom-0 mx-auto h-3/5 w-full min-[390px]:w-96  min-[550px]:w-[75%] bg-[#20443E]"
         ></div>
       </div>
-
       <div
         class="content-contact flex w-full items-center flex-col justify-center pt-8"
       >
-        <div class="w-10/12">
+        <div class="w-10/12 min-[390px]:w-[325px]">
           <div class="flex justify-center mb-8">
             <a href="mailto:maderiksi20@gmail.com" target="_blank">
               <button
@@ -225,8 +231,8 @@
               My projects
             </h1>
           </div>
-          <div class="grid grid-cols-1 sm:grid-cols-2 my-6 gap-8">
-              <div class="rounded-xl overflow-hidden max-w-80 mx-auto">
+          <div class="grid grid-cols-1 sm:grid-cols-2 my-6 gap-8 ">
+              <div class="card rounded-xl shadow-lg overflow-hidden max-w-80 mx-auto">
                 <div class="flex justify-center bg-[#20443E]">
                   <img src="../img/project1.jpg" class="aspect-video hover:scale-110 transition-all duration-300" alt="catatuangku">
                 </div>
@@ -249,7 +255,7 @@
                   </div>
                 </div>
               </div>
-              <div class="rounded-xl overflow-hidden mx-auto max-w-80">
+              <div class="card rounded-xl shadow-lg overflow-hidden mx-auto max-w-80 order-first">
                 <div class="flex justify-center bg-[#20443E]">
                   <a href="https://ngodingbareng.my.id/" target="_blank">
                     <img src="../img/ngodingbareng.png" class="aspect-video hover:scale-110 transition-all duration-300" alt="ngodingbareng">
