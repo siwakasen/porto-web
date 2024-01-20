@@ -17,7 +17,7 @@
       <div
         class="background-greetings z-0 bg-[#102c27] absolute w-full top-0 h-52 min-[401px]:h-[20rem] min-[463px]:hidden"
       ></div>
-      <div class="content-home flex w-full flex-col items-center pt-10">
+      <div class="greetings flex w-full flex-col items-center pt-4 md:pt-10 lg:pt-16 xl:pt-24">
         <div class="w-10/12 z-10">
           <div>
             <h3 class="text-4xl py-4 text-[#33FFA9]">Hi! I'm</h3>
@@ -28,72 +28,81 @@
           </div>
         </div>
       </div>
-      <div class="content-home flex w-full flex-col items-center pb-4">
-        <div class="w-10/12 z-10">
-          <p class="py-10 text-2xl">
-            A Computer science student. Interested in Cybersecurity, back-end
-            development, and literature.
-          </p>
-        </div>
-      </div>
-
-      <div class="relative flex justify-center">
-        <img src="../img/profile.jpg" id="profile" class="z-10 w-7/12 bottom-0 rounded-full" alt="" />
-        <div
-          class="absolute bottom-0 mx-auto h-3/5 w-full min-[390px]:w-96  min-[550px]:w-[75%] bg-[#20443E]"
-        ></div>
-      </div>
-      <div
-        class="content-contact flex w-full items-center flex-col justify-center pt-8"
-      >
-        <div class="w-10/12 min-[390px]:w-[325px]">
-          <div class="flex justify-center mb-8">
-            <a href="mailto:maderiksi20@gmail.com" target="_blank">
-              <button
-                class="bg-[#20443E] hover:text-[#191e24] hover:bg-[#ececec] transition-colors duration-300 rounded-lg px-2 py-3 font-bold"
-              >
-                Contact me /&gt;
-              </button>
-            </a>
-          </div>
-          <div class="bg-[#20443E] h-10 p-2 rounded-t-2xl">
+      <div class="flex w-full justify-center ">
+        <div class="md:w-10/12 md:mt-4">
+          <div class=" md:grid md:grid-cols-2 ">
+            <div class="content-home flex w-full justify-center lg:justify-start items-center pb-4 md:pb-0">
+              <div class="w-10/12 z-10 md:w-full lg:w-10/12">
+                <p class="py-10 text-2xl md:py-6">
+                  A Computer science student. Interested in Cybersecurity, back-end
+                  development, and literature.
+                </p>
+              </div>
+            </div>
+            <!-- <div class="bg-red-400 h-40 w-40 min-[420px]:w-60"></div> -->
+            <div class="relative flex justify-center md:row-span-2 md:p-3 lg:p-6 xl:w-8/12 xl:justify-self-center">
+              <img src="../img/profile.jpg" id="profile" class="z-10 w-10/12 bottom-0 rounded-full md:w-full md:h-fit " alt="" />
+              <div
+                class="absolute bottom-0 mx-auto h-3/5 md:h-4/6 w-full bg-[#20443E] "
+              ></div>
+            </div>
             <div
-              class="flex justify-center font-semibold text-xl text-[#ececec]"
+              class="content-contact flex w-full items-center flex-col justify-center md:justify-start md:items-start pt-8 md:pt-0 md:place-self-end"
             >
-              Find me
+              <div class="w-10/12 min-[390px]:w-[325px] md:w-full">
+                <div class="flex justify-center mb-8 md:mb-2 lg:mb-6 md:justify-start">
+                  <a href="mailto:maderiksi20@gmail.com" target="_blank">
+                    <button
+                      class="bg-[#20443E] hover:text-[#191e24] hover:bg-[#ececec] transition-colors duration-300 rounded-lg px-3 py-3  font-bold"
+                    >
+                      Contact me /&gt;
+                    </button>
+                  </a>
+                </div>
+                <div class="md:w-8/12">
+                  <div class="bg-[#20443E] h-10 p-2 rounded-t-2xl">
+                    <div
+                      class="flex justify-center font-semibold text-xl text-[#ececec] md:justify-start md:pl-4"
+                    >
+                      Find me
+                    </div>
+                  </div>
+                  <div class="bg-[#102C27] p-4 rounded-b-2xl">
+                    <div class="flex justify-evenly">
+                      <div class=" flex-initial w-11">
+                        <a href="https://www.linkedin.com/in/riksi/" target="_blank"
+                          ><img
+                            class="rounded-full hover:bg-[#ececec] transition-all duration-300"
+                            src="../img/linkedin.svg"
+                            alt="linkedin"
+                        /></a>
+                      </div>
+                      <div class=" flex-initial w-11">
+                        <a
+                          href="https://www.instagram.com/riksipurnama/"
+                          target="_blank"
+                        >
+                          <img
+                            class="rounded-full hover:bg-[#ececec] transition-all duration-300"
+                            src="../img/instagram.svg"
+                            alt="instagram"
+                          />
+                        </a>
+                      </div>
+                      <div class="flex-initial w-11">
+                        <a href="https://github.com/siwakasen" target="_blank"
+                          ><img
+                            class="rounded-full hover:bg-[#ececec] transition-all duration-300"
+                            src="../img/github.svg"
+                            alt="github"
+                        /></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="bg-[#102C27] p-4 rounded-b-2xl">
-            <div class="flex justify-evenly">
-              <div class=" flex-initial w-11">
-                <a href="https://www.linkedin.com/in/riksi/" target="_blank"
-                  ><img
-                    class="rounded-full hover:bg-[#ececec] transition-all duration-300"
-                    src="../img/linkedin.svg"
-                    alt="linkedin"
-                /></a>
-              </div>
-              <div class=" flex-initial w-11">
-                <a
-                  href="https://www.instagram.com/riksipurnama/"
-                  target="_blank"
-                >
-                  <img
-                    class="rounded-full hover:bg-[#ececec] transition-all duration-300"
-                    src="../img/instagram.svg"
-                    alt="instagram"
-                  />
-                </a>
-              </div>
-              <div class="flex-initial w-11">
-                <a href="https://github.com/siwakasen" target="_blank"
-                  ><img
-                    class="rounded-full hover:bg-[#ececec] transition-all duration-300"
-                    src="../img/github.svg"
-                    alt="github"
-                /></a>
-              </div>
-            </div>
+    
           </div>
         </div>
       </div>
@@ -102,27 +111,29 @@
         <div class="w-10/12">
           <div class="flex items-center gap-4">
             <div class="h-1 w-full bg-[#33FFA9]"></div>
-            <h1 class="min-w-fit font-bold text-3xl text-[#33FFA9]">
+            <h1 class="min-w-fit font-bold text-3xl md:text-4xl text-[#33FFA9]">
               About me
             </h1>
           </div>
-          <div>
-            <span class="block text-xl my-2 text-[#33FFA9]">&lt;p&gt;</span>
-            <p class="text-[18px] mb-4 text-justify">
-              My name is Made Riksi Purnama, a tech enthusiast. Here's a glimpse
-              about me.
-            </p>
-            <p class="text-[18px] mb-4 text-justify">
-              I was born in Bali, Indonesia. I'm interested to explore technology, 
-              starting from software development, cybersecurity, and any other tech.
-              Apart from that, I also like reading books and learn finance. 
-            </p>
-            <p class="text-[18px] text-justify">
-              I Studied at Universitas Atma Jaya Yogyakarta, majoring in Computer Science. 
-              I served as a Assistant Lecturer for 6 months. 
-              After that I start to focus on my own projects to improve my knowledge.
-            </p>
-            <span class="block text-xl my-2 text-[#33FFA9]">&lt;/p&gt;</span>
+          <div >
+            <span class="block text-xl md:text-2xl my-2 md:my-3  text-[#33FFA9] ">&lt;p&gt;</span>
+            <div class="md:grid grid-cols-2 gap-10 md:px-4">
+              <p class="text-[18px] mb-4 md:mb-0 text-justify ">
+                My name is Made Riksi Purnama, a tech enthusiast. Here's a glimpse
+                about me.
+              </p>
+              <p class="text-[18px] mb-4 md:mb-0 text-justify row-span-2 order-3">
+                I was born in Bali, Indonesia. I'm interested to explore technology, 
+                starting from software development, cybersecurity, and any other tech.
+                Apart from that, I also like reading books and learn finance. 
+              </p>
+              <p class="text-[18px] text-justify row-span-2 ">
+                I Studied at Universitas Atma Jaya Yogyakarta, majoring in Computer Science. 
+                I served as a Assistant Lecturer for 6 months. 
+                After that I start to focus on my own projects to improve my knowledge.
+              </p>
+            </div>
+            <span class="block text-xl md:text-2xl my-2 md:my-3 text-[#33FFA9] ">&lt;/p&gt;</span>
           </div>
         </div>
       </div>
@@ -130,15 +141,15 @@
       <div class="flex w-full items-center flex-col justify-center pb-10">
         <div class="w-10/12">
           <div class="flex items-center gap-4">
-            <h1 class="min-w-fit font-bold text-3xl text-[#33FFA9]">
+            <h1 class="min-w-fit font-bold text-3xl md:text-4xl text-[#33FFA9]">
               My skills
             </h1>
             <div class="h-1 w-full bg-[#33FFA9]"></div>
           </div>
-          <div class="grid grid-cols-2 mt-6 sm:grid-cols-3 md:grid-cols-4">
+          <div class="grid grid-cols-2 mt-6 lg:mt-8 sm:grid-cols-3 md:grid-cols-4">
             <div class="m-1 mt-2 flex items-center gap-4 md:mb-6">
               <div
-                class="flex h-14 w-14 p-2 items-center bg-white rounded-full"
+                class="flex h-14 w-14 lg:h-16 lg:w-16 p-2 items-center bg-white rounded-full"
               >
                 <img
                   src="../img/c.svg"
@@ -146,35 +157,35 @@
                   alt=""
                 />
               </div>
-              <div class="w-fit">C Language</div>
+              <div class="w-fit lg:text-xl">C Language</div>
             </div>
             <div class="m-1 mt-2 flex items-center gap-4 md:mb-6">
               <div
-                class="flex h-14 w-14 p-2 items-center bg-white rounded-full overflow-hidden"
+                class="flex h-14 w-14 lg:h-16 lg:w-16 p-2 items-center bg-white rounded-full overflow-hidden"
               >
                 <img src="../img/java.svg" class="object-contain p-2" alt="" />
               </div>
-              <div class="w-fit">Java</div>
+              <div class="w-fit lg:text-xl">Java</div>
             </div>
             <div class="m-1 mt-2 flex items-center gap-4 md:mb-6">
               <div
-                class="flex h-14 w-14 p-2 items-center bg-white rounded-full"
+                class="flex h-14 w-14 lg:h-16 lg:w-16 p-2 items-center bg-white rounded-full"
               >
                 <img src="../img/laravel.svg" class="object-contain" alt="" />
               </div>
-              <div class="w-fit">Laravel</div>
+              <div class="w-fit lg:text-xl">Laravel</div>
             </div>
             <div class="m-1 mt-2 flex items-center gap-4 md:mb-6">
               <div
-                class="flex h-14 w-14 p-2 items-center bg-white rounded-full"
+                class="flex h-14 w-14 lg:h-16 lg:w-16 p-2 items-center bg-white rounded-full"
               >
                 <img src="../img/linux-tux.svg" class="object-contain" alt="" />
               </div>
-              <div class="w-fit">Linux</div>
+              <div class="w-fit lg:text-xl">Linux</div>
             </div>  
             <div class="m-1 mt-2 flex items-center gap-4 md:mb-6">
               <div
-                class="flex h-14 w-14 p-2 items-center bg-white rounded-full"
+                class="flex h-14 w-14 lg:h-16 lg:w-16 p-2 items-center bg-white rounded-full"
               >
                 <img
                   src="../img/flutter.svg"
@@ -182,11 +193,11 @@
                   alt=""
                 />
               </div>
-              <div class="w-fit">Flutter</div>
+              <div class="w-fit lg:text-xl">Flutter</div>
             </div>
             <div class="m-1 mt-2 flex items-center gap-4 md:mb-6">
               <div
-                class="flex h-14 w-14 p-2 items-center bg-white rounded-full"
+                class="flex h-14 w-14 lg:h-16 lg:w-16 p-2 items-center bg-white rounded-full"
               >
                 <img
                   src="../img/mysql-logo.svg"
@@ -194,11 +205,11 @@
                   alt=""
                 />
               </div>
-              <div class="w-fit">SQL</div>
+              <div class="w-fit lg:text-xl">SQL</div>
             </div>
             <div class="m-1 mt-2 flex items-center gap-4 md:mb-6">
               <div
-                class="flex h-14 w-14 p-2 items-center bg-white rounded-full"
+                class="flex h-14 w-14 lg:h-16 lg:w-16 p-2 items-center bg-white rounded-full"
               >
                 <img
                   src="../img/git.svg"
@@ -206,19 +217,19 @@
                   alt=""
                 />
               </div>
-              <div class="w-fit">Git</div>
+              <div class="w-fit lg:text-xl">Git</div>
             </div>
             <div class="m-1 mt-2 flex items-center gap-4 md:mb-6">
               <div
-                class="flex h-14 w-14 p-0 items-center bg-white rounded-full"
+                class="flex h-14 w-14 lg:h-16 lg:w-16 p-2 items-center bg-white rounded-full"
               >
                 <img
-                  src="../img/github-logo.png"
+                  src="../img/tailwind.svg"
                   class="object-contain"
                   alt=""
                 />
               </div>
-              <div class="w-fit">Github</div>
+              <div class="w-fit lg:text-xl">Tailwind</div>
             </div>
           </div>
         </div>
@@ -227,12 +238,13 @@
         <div class="w-10/12">
           <div class="flex items-center gap-4 ">
             <div class="h-1 w-full bg-[#33FFA9]"></div>
-            <h1 class="min-w-fit font-bold text-3xl text-[#33FFA9]">
+            <h1 class="min-w-fit font-bold text-3xl md:text-4xl text-[#33FFA9]">
               My projects
             </h1>
           </div>
-          <div class="grid grid-cols-1 sm:grid-cols-2 my-6 gap-8 ">
-              <div class="card rounded-xl shadow-lg overflow-hidden max-w-80 mx-auto">
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 my-6 lg:my-10 gap-8 ">
+              <div class="card rounded-xl shadow-lg overflow-hidden max-w-80 mx-auto xl:mx-0">
                 <div class="flex justify-center bg-[#20443E]">
                   <img src="../img/project1.jpg" class="aspect-video hover:scale-110 transition-all duration-300" alt="catatuangku">
                 </div>
@@ -249,13 +261,13 @@
                       CatatUangku is a simple app to record your daily expenses.
                     </p>
                     <p class="text-lg">
-                      <p>React, Tailwind, Express.js</p>
+                      <p>React, Tailwind, Express.js,</p>
                       <p>Flutter, Firebase.</p>
                     </p>
                   </div>
                 </div>
               </div>
-              <div class="card rounded-xl shadow-lg overflow-hidden mx-auto max-w-80 order-first">
+              <div class="card rounded-xl shadow-lg overflow-hidden mx-auto xl:mx-0 max-w-80 order-first">
                 <div class="flex justify-center bg-[#20443E]">
                   <a href="https://ngodingbareng.my.id/" target="_blank">
                     <img src="../img/ngodingbareng.png" class="aspect-video hover:scale-110 transition-all duration-300" alt="ngodingbareng">
@@ -272,7 +284,7 @@
                       Ngoding-bareng is a website to learn coding. (It's a project on my colllage).
                     </p>
                     <p class="text-lg">
-                      <p>Laravel, Bootstrap, MySql</p>
+                      <p>Laravel, Bootstrap, MySql.</p>
                     </p>
                   </div>
                 </div>
