@@ -634,6 +634,10 @@ video {
   height: 15em;
 }
 
+.h-\[10em\] {
+  height: 10em;
+}
+
 .min-h-10 {
   min-height: 2.5rem;
 }
@@ -665,6 +669,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[10em\] {
+  width: 10em;
 }
 
 .min-w-fit {
