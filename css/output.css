@@ -869,6 +869,11 @@ video {
   background-color: rgb(33 47 37 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#1b271f\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(27 39 31 / var(--tw-bg-opacity));
+}
+
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
@@ -905,6 +910,10 @@ video {
 
 .to-\[\#27392e\] {
   --tw-gradient-to: #27392e var(--tw-gradient-to-position);
+}
+
+.to-\[\#1e2b23\] {
+  --tw-gradient-to: #1e2b23 var(--tw-gradient-to-position);
 }
 
 .object-contain {
