@@ -643,27 +643,6 @@ video {
   margin-top: 2.5rem;
 }
 
-.line-clamp-1 {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 1;
-}
-
-.line-clamp-4 {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 4;
-}
-
-.line-clamp-2 {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-}
-
 .block {
   display: block;
 }
@@ -821,10 +800,6 @@ video {
 
 .overflow-hidden {
   overflow: hidden;
-}
-
-.overflow-ellipsis {
-  text-overflow: ellipsis;
 }
 
 .rounded-full {
@@ -1075,11 +1050,6 @@ video {
     height: -moz-fit-content;
     height: fit-content;
   }
-
-  .max-\[425px\]\:w-fit {
-    width: -moz-fit-content;
-    width: fit-content;
-  }
 }
 
 @media (min-width: 390px) {
@@ -1278,6 +1248,11 @@ video {
     font-size: 3.75rem;
     line-height: 1;
   }
+
+  .md\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1429,5 +1404,15 @@ video {
 
   .xl\:pt-24 {
     padding-top: 6rem;
+  }
+
+  .xl\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .xl\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
