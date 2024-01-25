@@ -1,0 +1,20 @@
+# Node.js files
+node_modules/
+package-lock.json
+
+# Tailwind CSS files
+tailwind.css
+tailwind.config.js
+
+# Development files
+input.css
+
+# Environment-specific files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# IDE and editor files
+.vscode/
