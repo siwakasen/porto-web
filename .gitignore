@@ -6,8 +6,6 @@ package-lock.json
 tailwind.css
 tailwind.config.js
 
-# Development files
-input.css
 
 # IDE and editor files
 .vscode/
