@@ -12,8 +12,5 @@
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.4.1"
-  },
-  "dependencies": {
-    "minify-html": "^0.0.2"
   }
 }
